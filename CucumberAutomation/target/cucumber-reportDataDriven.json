@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Validate Create User Multiple Fields21",
+        "description": "",
+        "id": "create-account-of-facebook2;validate-create-user-multiple-fields21;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18120046800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "DataDrivenStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1162666300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user \"Tom\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_enters_user_first_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1117249400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters user \"Jerry\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jerry",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_enters_user_surname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1033307900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User checks user \"Tom\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_checks_user_first_name_is_present(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1022188900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User checks user \"Jerry\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jerry",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_checks_user_surname_is_present(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1036029300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "DataDrivenStepDef.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4374127400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close browser",
+            "match": {
+              "location": "DataDrivenStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Validate Create User Multiple Fields21",
+        "description": "",
+        "id": "create-account-of-facebook2;validate-create-user-multiple-fields21;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17689699800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "DataDrivenStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1147077100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user \"Lorren\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lorren",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_enters_user_first_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1133843700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters user \"Hardy\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hardy",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_enters_user_surname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1027513600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User checks user \"Lorren\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lorren",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_checks_user_first_name_is_present(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1026072800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User checks user \"Hardy\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hardy",
+                  "offset": 18
+                }
+              ],
+              "location": "DataDrivenStepDef.user_checks_user_surname_is_present(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031501900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "DataDrivenStepDef.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4383862000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close browser",
+            "match": {
+              "location": "DataDrivenStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook2",
+    "description": "As a user you need to open Facebook home page and do the validation",
+    "id": "create-account-of-facebook2",
+    "keyword": "Feature",
+    "uri": "DataDrivenFF.feature"
+  }
+]
