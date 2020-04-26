@@ -22,6 +22,7 @@ public class MyFirstStepDef {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.facebook.com/");
+		System.out.println("Opening URL");
 	}
 
 	@When("^User enters user first name$")
